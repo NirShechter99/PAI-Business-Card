@@ -187,33 +187,6 @@ p {
     margin-bottom: 0;
 }
 
-.project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.25rem;
-}
-
-@media (min-width: 640px) {
-    .project-grid {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-.project-card {
-    background-color: var(--bg-color);
-    padding: 1.5rem;
-    border-radius: 8px;
-    border: 1px solid var(--border-color);
-    transition: background-color var(--transition-speed) ease, border-color var(--transition-speed) ease;
-}
-
-.project-card h4 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.125rem;
-    color: var(--accent-color);
-    transition: color var(--transition-speed) ease;
-}
-
 .contact-info, .social-links {
     display: flex;
     flex-direction: column;
